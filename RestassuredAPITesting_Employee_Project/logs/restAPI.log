@@ -1,0 +1,14 @@
+16:54:01,905  INFO EmployeesRestAPI:23 - *********************** Started TC005_Delete_Employee_Record *********************
+16:54:10,603  INFO EmployeesRestAPI:91 - ************ Checking Content Length ****************
+16:54:10,603  INFO EmployeesRestAPI:94 - Content Length is ==>84
+16:54:10,606  INFO EmployeesRestAPI:43 - *************** Checking Response Body ****************
+16:54:10,607  INFO EmployeesRestAPI:46 - Response Body==>{"status":"success","data":"null","message":"Successfully! Record has been deleted"}
+16:54:10,611  INFO EmployeesRestAPI:53 - ************** Checking Status Code ****************
+16:54:10,611  INFO EmployeesRestAPI:56 - Status Code is ==>200
+16:54:10,614  INFO EmployeesRestAPI:81 - ************ Checking Content Encoding ****************
+16:54:10,614  INFO EmployeesRestAPI:84 - Content Encoding is ==>null
+16:54:10,617  INFO EmployeesRestAPI:71 - ************ Checking Server Type ****************
+16:54:10,617  INFO EmployeesRestAPI:74 - Server Type is ==>Apache
+16:54:10,620  INFO EmployeesRestAPI:62 - ************* Checking Status Line ***********
+16:54:10,620  INFO EmployeesRestAPI:65 - Status Line is ==>HTTP/1.1 200 OK
+16:54:10,622  INFO EmployeesRestAPI:102 - ************** Finished TC005_Delete_Employee_Record *******************
