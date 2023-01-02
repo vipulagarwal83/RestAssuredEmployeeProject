@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>EmployeesRestAPITest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>16/19/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>14/21/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Nov 19 16:53:25 IST 2022</td>
+<td>Started on:</td><td>Sun Nov 20 15:12:47 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>45 seconds (45269 ms)</td>
+<tr><td>Total time:</td><td>31 seconds (31961 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -114,16 +114,16 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>com.employeeapi.testCases.TC001_Get_All_Employees@455b6df1</td></tr>
 <tr>
-<td title='com.employeeapi.testCases.TC004_Put_Employee_Record.checkContentLength()'><b>checkContentLength</b><br>Test class: com.employeeapi.testCases.TC004_Put_Employee_Record</td>
+<td title='com.employeeapi.testCases.TC003_Post_Employee_Record.checkContentLength()'><b>checkContentLength</b><br>Test class: com.employeeapi.testCases.TC003_Post_Employee_Record</td>
 <td><div><pre>java.lang.NumberFormatException: Cannot parse null string
 	at java.base/java.lang.Integer.parseInt(Integer.java:630)
 	at java.base/java.lang.Integer.parseInt(Integer.java:786)
-	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkContentLength(TC004_Put_Employee_Record.java:107)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1090160486", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1090160486'><pre>java.lang.NumberFormatException: Cannot parse null string
+	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkContentLength(TC003_Post_Employee_Record.java:115)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1184166964", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1184166964'><pre>java.lang.NumberFormatException: Cannot parse null string
 	at java.base/java.lang.Integer.parseInt(Integer.java:630)
 	at java.base/java.lang.Integer.parseInt(Integer.java:786)
-	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkContentLength(TC004_Put_Employee_Record.java:107)
+	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkContentLength(TC003_Post_Employee_Record.java:115)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -151,7 +151,46 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.employeeapi.testCases.TC004_Put_Employee_Record@1ab06251</td></tr>
+<td>com.employeeapi.testCases.TC003_Post_Employee_Record@3f67593e</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC005_Delete_Employee_Record.checkContentLength()'><b>checkContentLength</b><br>Test class: com.employeeapi.testCases.TC005_Delete_Employee_Record</td>
+<td><div><pre>java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Integer.parseInt(Integer.java:630)
+	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+	at com.employeeapi.testCases.TC005_Delete_Employee_Record.checkContentLength(TC005_Delete_Employee_Record.java:96)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace866073173", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace866073173'><pre>java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Integer.parseInt(Integer.java:630)
+	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+	at com.employeeapi.testCases.TC005_Delete_Employee_Record.checkContentLength(TC005_Delete_Employee_Record.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC005_Delete_Employee_Record@41ab013</td></tr>
 <tr>
 <td title='com.employeeapi.testCases.TC001_Get_All_Employees.checkContentType()'><b>checkContentType</b><br>Test class: com.employeeapi.testCases.TC001_Get_All_Employees</td>
 <td><div><pre>java.lang.AssertionError: expected [text/html; charset=UTF-8] but found [application/json]
@@ -279,8 +318,8 @@ function toggleAllBoxes() {
 <td title='com.employeeapi.testCases.TC003_Post_Employee_Record.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.employeeapi.testCases.TC003_Post_Employee_Record</td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
 	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkResponseBody(TC003_Post_Employee_Record.java:60)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1452445207", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1452445207'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1964697764", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1964697764'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
@@ -320,8 +359,8 @@ function toggleAllBoxes() {
 <td title='com.employeeapi.testCases.TC004_Put_Employee_Record.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.employeeapi.testCases.TC004_Put_Employee_Record</td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
 	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkResponseBody(TC004_Put_Employee_Record.java:57)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1465663131", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1465663131'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1962420141", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1962420141'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
@@ -361,8 +400,8 @@ function toggleAllBoxes() {
 <td title='com.employeeapi.testCases.TC005_Delete_Employee_Record.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.employeeapi.testCases.TC005_Delete_Employee_Record</td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
 	at com.employeeapi.testCases.TC005_Delete_Employee_Record.checkResponseBody(TC005_Delete_Employee_Record.java:47)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace48063459", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace48063459'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2098992714", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2098992714'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
@@ -438,18 +477,18 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>com.employeeapi.testCases.TC001_Get_All_Employees@455b6df1</td></tr>
 <tr>
-<td title='com.employeeapi.testCases.TC004_Put_Employee_Record.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.employeeapi.testCases.TC004_Put_Employee_Record</td>
+<td title='com.employeeapi.testCases.TC003_Post_Employee_Record.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.employeeapi.testCases.TC003_Post_Employee_Record</td>
 <td><div><pre>java.lang.AssertionError: expected [200] but found [429]
-	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkStatusCode(TC004_Put_Employee_Record.java:68)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1942211849", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1942211849'><pre>java.lang.AssertionError: expected [200] but found [429]
+	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkStatusCode(TC003_Post_Employee_Record.java:72)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1110618954", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1110618954'><pre>java.lang.AssertionError: expected [200] but found [429]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 	at org.testng.Assert.assertEquals(Assert.java:118)
 	at org.testng.Assert.assertEquals(Assert.java:652)
 	at org.testng.Assert.assertEquals(Assert.java:662)
-	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkStatusCode(TC004_Put_Employee_Record.java:68)
+	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkStatusCode(TC003_Post_Employee_Record.java:72)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -477,7 +516,48 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.employeeapi.testCases.TC004_Put_Employee_Record@1ab06251</td></tr>
+<td>com.employeeapi.testCases.TC003_Post_Employee_Record@3f67593e</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC005_Delete_Employee_Record.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.employeeapi.testCases.TC005_Delete_Employee_Record</td>
+<td><div><pre>java.lang.AssertionError: expected [200] but found [429]
+	at com.employeeapi.testCases.TC005_Delete_Employee_Record.checkStatusCode(TC005_Delete_Employee_Record.java:57)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1788408659", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1788408659'><pre>java.lang.AssertionError: expected [200] but found [429]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at com.employeeapi.testCases.TC005_Delete_Employee_Record.checkStatusCode(TC005_Delete_Employee_Record.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC005_Delete_Employee_Record@41ab013</td></tr>
 <tr>
 <td title='com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkcontentEncoding()'><b>checkcontentEncoding</b><br>Test class: com.employeeapi.testCases.TC002_Get_Single_Employee_Record</td>
 <td><div><pre>java.lang.AssertionError: expected [gzip] but found [null]
@@ -520,18 +600,18 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>com.employeeapi.testCases.TC002_Get_Single_Employee_Record@4ddbbdf8</td></tr>
 <tr>
-<td title='com.employeeapi.testCases.TC003_Post_Employee_Record.checkcontentEncoding()'><b>checkcontentEncoding</b><br>Test class: com.employeeapi.testCases.TC003_Post_Employee_Record</td>
+<td title='com.employeeapi.testCases.TC004_Put_Employee_Record.checkcontentEncoding()'><b>checkcontentEncoding</b><br>Test class: com.employeeapi.testCases.TC004_Put_Employee_Record</td>
 <td><div><pre>java.lang.AssertionError: expected [gzip] but found [null]
-	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkcontentEncoding(TC003_Post_Employee_Record.java:103)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace991806841", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace991806841'><pre>java.lang.AssertionError: expected [gzip] but found [null]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkcontentEncoding(TC004_Put_Employee_Record.java:96)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2081703861", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2081703861'><pre>java.lang.AssertionError: expected [gzip] but found [null]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:118)
 	at org.testng.Assert.assertEquals(Assert.java:453)
 	at org.testng.Assert.assertEquals(Assert.java:463)
-	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkcontentEncoding(TC003_Post_Employee_Record.java:103)
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkcontentEncoding(TC004_Put_Employee_Record.java:96)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -559,48 +639,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.employeeapi.testCases.TC003_Post_Employee_Record@3f67593e</td></tr>
-<tr>
-<td title='com.employeeapi.testCases.TC005_Delete_Employee_Record.checkcontentEncoding()'><b>checkcontentEncoding</b><br>Test class: com.employeeapi.testCases.TC005_Delete_Employee_Record</td>
-<td><div><pre>java.lang.AssertionError: expected [gzip] but found [null]
-	at com.employeeapi.testCases.TC005_Delete_Employee_Record.checkcontentEncoding(TC005_Delete_Employee_Record.java:85)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1788408659", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1788408659'><pre>java.lang.AssertionError: expected [gzip] but found [null]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:453)
-	at org.testng.Assert.assertEquals(Assert.java:463)
-	at com.employeeapi.testCases.TC005_Delete_Employee_Record.checkcontentEncoding(TC005_Delete_Employee_Record.java:85)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>com.employeeapi.testCases.TC005_Delete_Employee_Record@41ab013</td></tr>
+<td>com.employeeapi.testCases.TC004_Put_Employee_Record@1ab06251</td></tr>
 <tr>
 <td title='com.employeeapi.testCases.TC001_Get_All_Employees.checkserverType()'><b>checkserverType</b><br>Test class: com.employeeapi.testCases.TC001_Get_All_Employees</td>
 <td><div><pre>java.lang.AssertionError: expected [nginx/1.14.1] but found [nginx/1.21.6]
@@ -687,8 +726,8 @@ function toggleAllBoxes() {
 <td title='com.employeeapi.testCases.TC003_Post_Employee_Record.checkserverType()'><b>checkserverType</b><br>Test class: com.employeeapi.testCases.TC003_Post_Employee_Record</td>
 <td><div><pre>java.lang.AssertionError: expected [nginx/1.14.1] but found [Apache]
 	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkserverType(TC003_Post_Employee_Record.java:92)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1625097607", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1625097607'><pre>java.lang.AssertionError: expected [nginx/1.14.1] but found [Apache]
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1206195529", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1206195529'><pre>java.lang.AssertionError: expected [nginx/1.14.1] but found [Apache]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
@@ -728,8 +767,8 @@ function toggleAllBoxes() {
 <td title='com.employeeapi.testCases.TC004_Put_Employee_Record.checkserverType()'><b>checkserverType</b><br>Test class: com.employeeapi.testCases.TC004_Put_Employee_Record</td>
 <td><div><pre>java.lang.AssertionError: expected [nginx/1.14.1] but found [Apache]
 	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkserverType(TC004_Put_Employee_Record.java:86)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1239728853", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1239728853'><pre>java.lang.AssertionError: expected [nginx/1.14.1] but found [Apache]
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace614655333", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace614655333'><pre>java.lang.AssertionError: expected [nginx/1.14.1] but found [Apache]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
@@ -769,8 +808,8 @@ function toggleAllBoxes() {
 <td title='com.employeeapi.testCases.TC005_Delete_Employee_Record.checkserverType()'><b>checkserverType</b><br>Test class: com.employeeapi.testCases.TC005_Delete_Employee_Record</td>
 <td><div><pre>java.lang.AssertionError: expected [nginx/1.14.1] but found [Apache]
 	at com.employeeapi.testCases.TC005_Delete_Employee_Record.checkserverType(TC005_Delete_Employee_Record.java:75)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace503365602", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace503365602'><pre>java.lang.AssertionError: expected [nginx/1.14.1] but found [Apache]
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1191372709", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1191372709'><pre>java.lang.AssertionError: expected [nginx/1.14.1] but found [Apache]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
@@ -807,18 +846,18 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>com.employeeapi.testCases.TC005_Delete_Employee_Record@41ab013</td></tr>
 <tr>
-<td title='com.employeeapi.testCases.TC004_Put_Employee_Record.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.employeeapi.testCases.TC004_Put_Employee_Record</td>
+<td title='com.employeeapi.testCases.TC003_Post_Employee_Record.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.employeeapi.testCases.TC003_Post_Employee_Record</td>
 <td><div><pre>java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]
-	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkstatusLine(TC004_Put_Employee_Record.java:77)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1043773344", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1043773344'><pre>java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]
+	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkstatusLine(TC003_Post_Employee_Record.java:82)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace906927110", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace906927110'><pre>java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 	at org.testng.Assert.assertEquals(Assert.java:118)
 	at org.testng.Assert.assertEquals(Assert.java:453)
 	at org.testng.Assert.assertEquals(Assert.java:463)
-	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkstatusLine(TC004_Put_Employee_Record.java:77)
+	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkstatusLine(TC003_Post_Employee_Record.java:82)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -846,7 +885,48 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.employeeapi.testCases.TC004_Put_Employee_Record@1ab06251</td></tr>
+<td>com.employeeapi.testCases.TC003_Post_Employee_Record@3f67593e</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC005_Delete_Employee_Record.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.employeeapi.testCases.TC005_Delete_Employee_Record</td>
+<td><div><pre>java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]
+	at com.employeeapi.testCases.TC005_Delete_Employee_Record.checkstatusLine(TC005_Delete_Employee_Record.java:66)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1941639991", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1941639991'><pre>java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.employeeapi.testCases.TC005_Delete_Employee_Record.checkstatusLine(TC005_Delete_Employee_Record.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC005_Delete_Employee_Record@41ab013</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -858,18 +938,13 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkContentLength()'><b>checkContentLength</b><br>Test class: com.employeeapi.testCases.TC002_Get_Single_Employee_Record</td>
 <td></td>
-<td>1</td>
+<td>0</td>
 <td>com.employeeapi.testCases.TC002_Get_Single_Employee_Record@4ddbbdf8</td></tr>
 <tr>
-<td title='com.employeeapi.testCases.TC003_Post_Employee_Record.checkContentLength()'><b>checkContentLength</b><br>Test class: com.employeeapi.testCases.TC003_Post_Employee_Record</td>
+<td title='com.employeeapi.testCases.TC004_Put_Employee_Record.checkContentLength()'><b>checkContentLength</b><br>Test class: com.employeeapi.testCases.TC004_Put_Employee_Record</td>
 <td></td>
 <td>0</td>
-<td>com.employeeapi.testCases.TC003_Post_Employee_Record@3f67593e</td></tr>
-<tr>
-<td title='com.employeeapi.testCases.TC005_Delete_Employee_Record.checkContentLength()'><b>checkContentLength</b><br>Test class: com.employeeapi.testCases.TC005_Delete_Employee_Record</td>
-<td></td>
-<td>0</td>
-<td>com.employeeapi.testCases.TC005_Delete_Employee_Record@41ab013</td></tr>
+<td>com.employeeapi.testCases.TC004_Put_Employee_Record@1ab06251</td></tr>
 <tr>
 <td title='com.employeeapi.testCases.TC001_Get_All_Employees.checkCookies()'><b>checkCookies</b><br>Test class: com.employeeapi.testCases.TC001_Get_All_Employees</td>
 <td></td>
@@ -896,25 +971,25 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>com.employeeapi.testCases.TC002_Get_Single_Employee_Record@4ddbbdf8</td></tr>
 <tr>
-<td title='com.employeeapi.testCases.TC003_Post_Employee_Record.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.employeeapi.testCases.TC003_Post_Employee_Record</td>
+<td title='com.employeeapi.testCases.TC004_Put_Employee_Record.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.employeeapi.testCases.TC004_Put_Employee_Record</td>
 <td></td>
 <td>0</td>
-<td>com.employeeapi.testCases.TC003_Post_Employee_Record@3f67593e</td></tr>
-<tr>
-<td title='com.employeeapi.testCases.TC005_Delete_Employee_Record.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.employeeapi.testCases.TC005_Delete_Employee_Record</td>
-<td></td>
-<td>0</td>
-<td>com.employeeapi.testCases.TC005_Delete_Employee_Record@41ab013</td></tr>
+<td>com.employeeapi.testCases.TC004_Put_Employee_Record@1ab06251</td></tr>
 <tr>
 <td title='com.employeeapi.testCases.TC001_Get_All_Employees.checkcontentEncoding()'><b>checkcontentEncoding</b><br>Test class: com.employeeapi.testCases.TC001_Get_All_Employees</td>
 <td></td>
 <td>0</td>
 <td>com.employeeapi.testCases.TC001_Get_All_Employees@455b6df1</td></tr>
 <tr>
-<td title='com.employeeapi.testCases.TC004_Put_Employee_Record.checkcontentEncoding()'><b>checkcontentEncoding</b><br>Test class: com.employeeapi.testCases.TC004_Put_Employee_Record</td>
+<td title='com.employeeapi.testCases.TC003_Post_Employee_Record.checkcontentEncoding()'><b>checkcontentEncoding</b><br>Test class: com.employeeapi.testCases.TC003_Post_Employee_Record</td>
 <td></td>
 <td>0</td>
-<td>com.employeeapi.testCases.TC004_Put_Employee_Record@1ab06251</td></tr>
+<td>com.employeeapi.testCases.TC003_Post_Employee_Record@3f67593e</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC005_Delete_Employee_Record.checkcontentEncoding()'><b>checkcontentEncoding</b><br>Test class: com.employeeapi.testCases.TC005_Delete_Employee_Record</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC005_Delete_Employee_Record@41ab013</td></tr>
 <tr>
 <td title='com.employeeapi.testCases.TC001_Get_All_Employees.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.employeeapi.testCases.TC001_Get_All_Employees</td>
 <td></td>
@@ -926,15 +1001,10 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>com.employeeapi.testCases.TC002_Get_Single_Employee_Record@4ddbbdf8</td></tr>
 <tr>
-<td title='com.employeeapi.testCases.TC003_Post_Employee_Record.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.employeeapi.testCases.TC003_Post_Employee_Record</td>
+<td title='com.employeeapi.testCases.TC004_Put_Employee_Record.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.employeeapi.testCases.TC004_Put_Employee_Record</td>
 <td></td>
 <td>0</td>
-<td>com.employeeapi.testCases.TC003_Post_Employee_Record@3f67593e</td></tr>
-<tr>
-<td title='com.employeeapi.testCases.TC005_Delete_Employee_Record.checkstatusLine()'><b>checkstatusLine</b><br>Test class: com.employeeapi.testCases.TC005_Delete_Employee_Record</td>
-<td></td>
-<td>0</td>
-<td>com.employeeapi.testCases.TC005_Delete_Employee_Record@41ab013</td></tr>
+<td>com.employeeapi.testCases.TC004_Put_Employee_Record@1ab06251</td></tr>
 </table><p>
 </body>
 </html>

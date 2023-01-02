@@ -9,31 +9,33 @@
       <class name="com.employeeapi.testCases.TC004_Put_Employee_Record">
         <methods>
           <include name="checkResponseBody"/>
+          <include name="checkcontentEncoding"/>
           <include name="checkserverType"/>
-          <include name="checkstatusLine"/>
           <include name="tearDown"/>
-          <include name="checkContentLength"/>
           <include name="setup"/>
           <include name="updateEmployee"/>
-          <include name="checkStatusCode"/>
         </methods>
       </class> <!-- com.employeeapi.testCases.TC004_Put_Employee_Record -->
       <class name="com.employeeapi.testCases.TC005_Delete_Employee_Record">
         <methods>
           <include name="checkserverType"/>
+          <include name="checkstatusLine"/>
+          <include name="checkContentLength"/>
           <include name="deleteEmployee"/>
           <include name="setup"/>
           <include name="checkResponseBody"/>
-          <include name="checkcontentEncoding"/>
           <include name="tearDown"/>
+          <include name="checkStatusCode"/>
         </methods>
       </class> <!-- com.employeeapi.testCases.TC005_Delete_Employee_Record -->
       <class name="com.employeeapi.testCases.TC003_Post_Employee_Record">
         <methods>
+          <include name="checkStatusCode"/>
           <include name="checkResponseBody"/>
           <include name="checkserverType"/>
           <include name="setup"/>
-          <include name="checkcontentEncoding"/>
+          <include name="checkstatusLine"/>
+          <include name="checkContentLength"/>
           <include name="tearDown"/>
           <include name="createEmployee"/>
         </methods>
